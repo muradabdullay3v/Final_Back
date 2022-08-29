@@ -11,6 +11,7 @@ namespace HMS_API.Models
         public DateTime ExpirationDate { get; set; }
         public string ExpirationTime { get; set; }
         public double Price { get; set; }
+        public int Count { get; set; }
 
     }
 }

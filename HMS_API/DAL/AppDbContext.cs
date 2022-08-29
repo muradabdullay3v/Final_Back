@@ -18,5 +18,6 @@ namespace HMS_API.DAL
         public DbSet<Reservation> Reservations { get; set; }
         public DbSet<Drug> Drugs { get; set; }
         public DbSet<Ward> Wards { get; set; }
+        public DbSet<Doctor> Doctors { get; set; }
     }
 }
